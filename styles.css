@@ -1,0 +1,6 @@
+#cardssection {display: flex;}
+#cardssection img{width: 200px;}
+#fabbanklogo {width: 400px;}
+header{display: flex ; align-items: center;}
+#loginbox{ background-color: aqua; border-style: dotted ; border-color: brown; text-align: left;}
+#outerbox {display:flex; align-items: center;}
