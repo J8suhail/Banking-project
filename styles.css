@@ -4,3 +4,12 @@
 header{display: flex ; align-items: center;}
 #loginbox{ background-color: aqua; border-style: dotted ; border-color: brown; text-align: left;}
 #outerbox {display:flex; align-items: center;}
+#section2 {display: flex;}
+#ModuleTwo{display: flex;}
+#rightContent{ background-image: url('https://promotions.bankofamerica.com/content/dam/consumer-marketing/tiles/CreditCards_560x315.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+     display: grid;
+     grid-template-columns: 50% 50%;}
+   #whiteblock{}
