@@ -34,7 +34,7 @@ header a{
     background-size: cover;
     padding: 80px;
      display: grid;
-     grid-template-columns: 50%;
+     grid-template-columns: 100%;
      }
    #whiteblock{ background-color: aliceblue; padding: 30px;}
    header{
