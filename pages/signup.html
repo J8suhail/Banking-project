@@ -9,8 +9,8 @@
    </head>
 <body>
   <div class="wrapper">
-    <h2>Registration</h2>
-    <form action="#">
+    <h2>Registration Form</h2>
+    <form action="#" name="signupForm">
       <div class="input-box">
         <input type="text" placeholder="Enter your name" required>
       </div>
@@ -21,7 +21,10 @@
         <input type="text" placeholder="Enter your email" required>
       </div>
       <div class="input-box">
-        <input type="password" placeholder="Create password" required>
+        <input type="password" placeholder="Create password" required name="userPassword" onkeyup="validatePassword()" id="createpassword">
+        <p id="passwordErrorLC"></p>
+          <p id="passwordErrorUC"></p>
+          <p id="passwordErrorN"></p>
       </div>
       <div class="input-box">
         <input type="password" placeholder="Confirm password" required>
@@ -37,8 +40,14 @@
       </div>
       <div class="text">
         <h3>Already have an account? <a href="#">Login now</a></h3>
+        
+
+
+
+        
       </div>
     </form>
   </div>
+  <script src="../scripts/signup.js"></script>
 </body>
 </html>
